@@ -1,0 +1,27 @@
+{
+  "name": "connect-sourcemaps",
+  "version": "1.0.0",
+  "description": "Source maps to a code linking middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/generalov/connect-sourcemaps/"
+  },
+  "keywords": [
+    "connect",
+    "express",
+    "middleware",
+    "sourcemaps",
+    "source maps"
+  ],
+  "author": "Evgeniy V. Generalov",
+  "license": "MIT",
+  "dependencies": {
+    "detect-newline": "2.1.0",
+    "express-interceptor": "1.2.0",
+    "url-relative": "1.0.0"
+  }
+}
