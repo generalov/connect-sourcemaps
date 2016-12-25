@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["onClick","value","map","n","console","log"],"mappings":";;AAAA,SAASA,OAAT,GAAmB;AACjB,MAAMC,QAAQ,CAAC,CAAD,EAAG,CAAH,EAAK,CAAL,EAAQC,GAAR,CAAY;AAAA,WAAKC,IAAI,CAAT;AAAA,GAAZ,CAAd;AACAC,UAAQC,GAAR,CAAYJ,KAAZ;AACD","file":"main.js","sourceRoot":"/src/js"}

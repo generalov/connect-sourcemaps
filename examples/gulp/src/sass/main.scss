@@ -1,0 +1,8 @@
+h1 {
+  color: red;
+  &:hover,
+  &:focus {
+      cursor: pointer;
+      text-decoration: underline;;
+  }
+}

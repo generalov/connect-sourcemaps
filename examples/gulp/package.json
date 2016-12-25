@@ -1,0 +1,24 @@
+{
+  "name": "sourcemaps-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-env": "1.1.4",
+    "del": "2.2.2",
+    "express-interceptor": "1.2.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "6.1.2",
+    "gulp-connect": "5.0.0",
+    "gulp-if": "2.0.2",
+    "gulp-sass": "3.0.0",
+    "gulp-sourcemaps": "1.9.1",
+    "url-relative": "1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

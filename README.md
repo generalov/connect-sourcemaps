@@ -19,13 +19,13 @@ var http = require('http');
 
 var app = connect();
 
-app.use('public', connectSourceMaps());
-app.use('public', connect.static(__dirname));
+app.use(connectSourceMaps());
+app.use(connect.static('public'));
 
 http.createServer(app).listen(3000);
 ```
 
-This assumes that source map files with the same name (plus .map) in the same directory
+This assumes that compiled files and source map files with the same name (plus .map) in the same directory.
 
 ### Respond with a `SourceMap` header
 

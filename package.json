@@ -19,6 +19,11 @@
   ],
   "author": "Evgeniy V. Generalov",
   "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
   "dependencies": {
     "detect-newline": "2.1.0",
     "express-interceptor": "1.2.0",
