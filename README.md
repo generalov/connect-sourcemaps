@@ -53,7 +53,7 @@ app.use(connectSourceMaps({
 
 ### Respond with an annotation injected into a content on the fly
 
-A `sourceMappingURL` comment will be appended to CSS and JavaScript files. Any existing annotations will be overrided.
+A [sourceMappingURL][3] comment will be appended to CSS and JavaScript files. Any existing annotations will be overrided.
 
 ```javascript
 var connectSourceMaps = require('connect-sourcemaps');
@@ -110,3 +110,4 @@ MIT
 
 [1]: https://github.com/mozilla/gecko/search?utf8=%E2%9C%93&q=x-sourcemap
 [2]: https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit#heading=h.lmz475t4mvbx
+[3]: https://github.com/generalov/connect-sourcemaps/wiki/Linking-generated-code-to-source-maps#annotation
